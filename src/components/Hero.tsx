@@ -203,7 +203,7 @@ function ProfilePicture() {
 
           {/* Portrait Image */}
           <img 
-            src="/profile.jpg" 
+            src="/profile-new.jpg" 
             alt="Harsh Verma"
             onError={(e) => { e.currentTarget.src = "https://picsum.photos/seed/harsh/400/400"; }}
             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 filter contrast-110 saturate-120 brightness-90 group-hover:brightness-110"
